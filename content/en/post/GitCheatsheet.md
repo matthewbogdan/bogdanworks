@@ -1,16 +1,29 @@
 ---
+date: 2021-04-09T10:58:08-04:00
+description: "Git Cheatsheet"
+featured_image: "/images/githublogo.png"
+tags: ["git", "github"]
+title: "Git Cheatsheet"
+---
+
+<!-- ---
 title: "Git Cheatsheet"
 date: 2021-09-22T14:50:07-04:00
 draft: true
----
+--- -->
+
+
 
 # Git Cheatsheet
+Below is a list of commands used for using git repository from initialization to pushing and pulling into github.
 
+## Create a new local repository
+git init
 
-Status
+## Checking Status of git repository
 git status
 
-## remove a file
+## Removing a file
 git rm NAME
 
 
@@ -19,7 +32,7 @@ git commit -amend
 ## launch default editor with amended history
 git commit -am “New commit message” 
 # amend changes with a new commit message
-git commit -amend —no-edit 
+git commit --amend —no-edit 
 # leaves message the same as in the last commit
 
 ## Log
@@ -34,9 +47,11 @@ git reset hashid(from log)
 get rest --hard hashid(from log)
 
 ## Rebase
-### taking commits from one branch and applying to another git rebase <branch>/<commit>
-git rebase --interactive <branch>/<commit>
+### taking commits from one branch and applying to another git rebase \<branch\>/\<commit\>
+git rebase --interactive \<branch\>/\<commit\>
+
 git rebase -i HEAD-#
+
 git rebase -i --root
 
 ## Branching
@@ -50,7 +65,7 @@ git switch -c "NAME"
 gIt checkout -b "NAME" 
 
 ## Merging
-git merge <branch>
+git merge \<branch\>
 
 ## Delete Branch
 git branch --delete NAME
@@ -88,23 +103,33 @@ git remote -v
 
 ## Git Push
 git push REMOTE BRANCH
+
 git push --set-upstream-to origin main (-u)
+
 git push -u origin main # --set-upstream
 ### push all branches
 git push --all
-git branch --set-upstream-to <orgin/remote-branch>
+
+git branch --set-upstream-to \<orgin/remote-branch>
 
 ## Git Pull
 git pull
+
 combination of doing a fetch but also mergin the data that is in your remote repository
 
 ## Clone 
 git clone URL (with .git extention)
+
 makes a copy of the repository down to machine
+
 git fetch
+
 look at git hub and download that into the current project (gets information about remote repository but does not change any branches)
+
 git pull
+
 checking out a remote branch (make sure to set up an upstream link with git branch --set-upstream-to=origin/<branch> main (from main branch to remote branch))
+
 Ex. git branch --set-upstream-to=origin/main main
     Branch 'main' set up to track remote branch 'main from 'origin'.
 
