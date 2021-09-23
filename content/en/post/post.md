@@ -1,16 +1,29 @@
 ---
+date: 2021-04-09T10:58:08-04:00
+description: "Git Cheatsheet"
+featured_image: "/images/githublogo.png"
+tags: ["git", "github"]
+title: "Git Cheatsheet"
+---
+
+<!-- ---
 title: "Git Cheatsheet"
 date: 2021-09-22T14:50:07-04:00
 draft: true
----
+--- -->
+
+
 
 # Git Cheatsheet
+Below is a list of commands used for using git repository from initialization to pushing and pulling into github.
 
+## Create a new local repository
+git init
 
-Status
+## Checking Status of git repository
 git status
 
-## remove a file
+## Removing a file
 git rm NAME
 
 
