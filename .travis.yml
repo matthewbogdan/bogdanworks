@@ -1,0 +1,15 @@
+# travis configuration does not deploy anything but will build the site files every
+# a new change is pushed up to the master branch on GitHub
+
+install:
+- wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb # this is the file that will be downloaded
+- sudo dpkg -i hugo*.deb # this will unpack the file downloaded from above and install it this machine
+- hugo version # version string will be put into the travis log
+# hugo will be set up
+before_script:
+- rm -rf public # this will delete the public folder if it happens to exist already
+script: # generate the site files
+- hugo # the hugo command will build the site files
+branches: # only build the master branch
+ only
+ - master
