@@ -1,5 +1,5 @@
 title = "Bogdanworks"
-baseURL = "https://www.bogdaworks.com"
+baseURL = "https://www.bogdanworks.com"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 # themesDir = "../.."
