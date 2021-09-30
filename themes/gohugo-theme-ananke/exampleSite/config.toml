@@ -1,8 +1,8 @@
-title = "Bogdanworks"
-baseURL = "https://www.bogdanworks.com"
+title = "Notre-Dame de Paris"
+baseURL = "https://example.com"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
-# themesDir = "../.."
+themesDir = "../.."
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
@@ -13,13 +13,13 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "BogdanWorks"
+    title = "My blog"
     weight = 1
-    contentDir = "content"
- # [languages.fr]
- #   title = "Mon blogue"
- #   weight = 2
- #   contentDir = "content/fr"
+    contentDir = "content/en"
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
 
 [sitemap]
   changefreq = "monthly"
@@ -31,10 +31,10 @@ enableRobotsTXT = true
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/bogdanworks"
-  instagram = "https://instagram.com/bogdanworks"
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
   youtube = ""
-  github = "https://github.com/bogdanworks"
+  github = ""
   gitlab = ""
   linkedin = ""
   mastodon = ""
@@ -43,5 +43,5 @@ enableRobotsTXT = true
   rss = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/desk.jpg"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
