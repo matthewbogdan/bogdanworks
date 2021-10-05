@@ -1,5 +1,6 @@
 ---
 title: "Posts"
+featured_image: "images/notebook.jpg"
 date: 2019-09-02T12:00:00-05:00
 menu: main
 ---
