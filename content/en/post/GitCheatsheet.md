@@ -1,10 +1,11 @@
 ---
+title: "Git Cheatsheet"
 date: 2021-09-22T10:58:08-04:00
-description: "Git Cheatsheet"
-featured_image: "/images/githublogo.png"
+featured_image: "/images/logo_github.png"
+description: "Git Cheatsheet common commands ran on git and github"
 tags: ["git", "github", "cheatsheet"]
 categories: ["version control"]
-title: "Git Cheatsheet"
+tags: []
 ---
 
 # Git Cheatsheet
