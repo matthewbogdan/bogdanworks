@@ -18,11 +18,12 @@ In my 10+ years in public service I have focused on software and application dev
 ### 07/2017 - Present
 #### ACCOMPLISHMENTS
 * Led cross functional teams of designers, developers, QA specialists to modernize Navy websites and mobile apps to allow the members of the Navy public affairs community to easily create and distribute content across the Navy and to it's public community
+* Received Navy Superior Civilian Service award for a "historic transformation of the Navy's flagship digital presence marking it's first significant modernization in 20 years"
+#### EXAMPLES
 |Website|App|
 |---|---|
 |[Navy Flagship website](https://www.navy.mil) | [The Official US Navy App: IOS](https:apps.apple.com/us/app/the-official-us-navy-app/id1575606823)|
 |[Navy All Hands website](https://www.ah.mil) | The Official US Navy App: Android (to be release January 2022) |
-* Lead website migration resulting in Navy Superior Civilian Service award
 
 
 <!-- []](https://play.google.com/store/apps/details?id=mil.navy.navyapplocker) -->
