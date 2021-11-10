@@ -36,7 +36,29 @@ Once Travis CI is synched with your GitHub account, a yml file needs to be at th
 
 _Note:_ make sure you have the current version of Hugo from https://github.com/gohugoio/hugo/releases
 
-{{< gist mnbogdan 397c65e2f283f05264f0271832b3027d>}}
+{{< highlight bash "linenos=table,linenostart=1" >}}
+# travis configuration does not deploy anything but will build the site files 
+# every time a new change is pushed up to the master branch on GitHub
+install:
+- wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb
+# this is the file that will be downloaded
+- sudo dpkg -i hugo*.deb 
+# this will unpack the file downloaded from above and install it this machine
+- hugo version 
+# version string will be put into the travis log
+# hugo will be set up
+before_script:
+- rm -rf public 
+# this will delete the public folder if it happens to exist already
+script: # generate the site files
+- hugo # the hugo command will build the site files
+branches: # only build the master branch
+only
+ - master
+view raw
+{{< / highlight >}}
+
+<!-- {{< gist mnbogdan 397c65e2f283f05264f0271832b3027d>}} -->
 
 ## Push Project Updates to GitHub
 You’ll need to add and commit any updates to your repository and push them up to your GitHub repository. 
