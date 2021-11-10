@@ -22,7 +22,7 @@ In my 10+ years in public service I have focused on software and application dev
 #### EXAMPLES
 |Website|App|
 |---|---|
-|[Navy Flagship website](https://www.navy.mil) | [The Official US Navy App: IOS](https:apps.apple.com/us/app/the-official-us-navy-app/id1575606823)|
+|[Navy Flagship website](https://www.navy.mil) | [The Official US Navy App: IOS](https://apps.apple.com/us/app/the-official-us-navy-app/id1575606823)|
 |[Navy All Hands website](https://www.ah.mil) | The Official US Navy App: Android (to be release January 2022) |
 
 
@@ -41,19 +41,23 @@ In my 10+ years in public service I have focused on software and application dev
 ### 01/2011 - 12/2015
 #### ACCOMPLISHMENTS
 * Led development team building desktop applications to collect and compute statistical data that informs other government agencies and the public how the tax system works
-#### TASKS
 * Produced electronic correspondence tracking system to take place of time consuming paper signing process resulting in Special Act Award
 * Led team of programmers to convert program from Oracle Forms to Visual Studio NET in a Project Manager role increasing security measures and coding efficiencies
 * Played lead role in cross-divisional team to build agency framework & templates to improve efficiency of developer programming
+
+#### TASKS
+* Develop applications using Microsoft software development stack that assisted in computing data for special studies of statisticians and their clients
 
 
 ## Holabird Sports
 ### 03/2007 - 05/2011
 #### ACCOMPLISHMENTS
 * Increased brand/product awareness through traditional print and digital web advertising
-#### TASKS
 * Assisted with web redesign through analysis of user experience tests increasing conversion rates in purchasing process
+
+#### TASKS
 * Promoted sales with technical product descriptions using creative writing skills
+* Photographed and edited images highlighting key features of products
 
 # Education
 ---
