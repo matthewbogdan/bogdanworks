@@ -1,21 +1,42 @@
 ---
-title: "Formspree Contact Form"
+title: "Adding Formspree Contact Form to Hugo website"
 date: 2021-11-09T19:52:29-05:00
 featured_image: "images/logo_Formspree.png"
-description: "Adding a contact form to a website using Formspree."
+description: "Adding a Formspree contact form to Hugo website."
 categories: [website update]
-tags: [form, form service]
+tags: [form, form service, hugo, shortcode]
 draft: false
 ---
-Formspree is a form backend, API and email service for HTML & Javascript forms. It's a simple way to embed custom contact us forms on a static website. I'd like to add a reCAPTCHA to the form so I don't recieve too much spam mail. It's a simple process but I'll go through the steps in how I set it up for this site. And you can see [my contact form](/contact) in action right on this site.
+[Formspree](https://formspree.io) is a form backend, API and email service for HTML & Javascript forms. It's a simple way to embed custom "contact us" forms on a [static website, like Hugo](https://gohugo.io). I'd like to add a [reCAPTCHA](https://developers.google.com/recaptcha/) to the form so I don't recieve too much spam mail. It's a simple process, but I'll go through the steps in how I set it up for this Hugo website. And you can see [my contact form](/contact) in action right on this site.
 
 ## Formspree Signup
 The first step in using a [free form](https://formspree.io) is to sign up at https://formspree.io/register
 
+If this is your first time signing up, you should immediately be taken to a _Form details for a new form_ page, but if not you can click _add new form_ on the https://formspree.io/forms page, provide a form name, project name and email and click create form.
+
+{{< figure src="/images/20211109_Formspree_01-newform.png" link="/images/20211109_Formspree_01-newform.png.png" title="First Formspree form" alt="Formspree Form details for a new form" >}}
 
 The formspree url can be posted right into your html form post attribute. This is listed as your Formspree endpoint where it directs you to you "Place this URL in the action attribute of your form."
 
-But I would also like to add a reCAPTCHA with this form!
+this URL action can be added to your contact form page
+
+{{< highlight hugo "linenos=table,hl_lines=11,linenostart=1" >}}
+---
+title: Contact
+featured_image: "images/notebook.jpg"
+omit_header_text: false
+description: I'd love to hear from you
+type: page
+menu: main
+---
+
+I'd love to hear from you and your thoughts on IT, leadership, project management and life! Please fill out the form below and I'll get back to you as soon as I can! Thanks!
+
+{{</* form-contact action="https://formspree.io/f/fayrmjpryb" */>}}
+
+{{</ highlight >}}
+
+## But I would also like to add a reCAPTCHA with this form!
 
 Going to https://www.google.com/recaptcha/admin and registering a new site
 
@@ -25,8 +46,9 @@ Going to https://www.google.com/recaptcha/admin and registering a new site
 
 
 
+## Adding reCAPTCHA to Hugo shortcode
 
-Modifying the shortcode in the hugo website using the [gohugo-theme-ananke](https://themes.gohugio.io/themes/gohugo-theme-ananke/) by adding the recaptcha
+Modifying the shortcode in the hugo website using the [gohugo-theme-ananke](https://themes.gohugio.io/themes/gohugo-theme-ananke/) by adding the recaptcha. You can see in line 17 "<div class="g-recaptcha" data-sitekey="YOURRECAPTCHASITEKEYGOESHERE"></div>"
 {{< highlight markdown "linenos=table,hl_lines=17,linenostart=1" >}}
 {{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
 {{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
