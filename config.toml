@@ -4,12 +4,15 @@ languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 # themesDir = "../.."
 resourceDir = "../resources"
-
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+
+
+[permalinks]
+  posts = "/:year/:month/:title/"
 
 [languages]
   [languages.en]
@@ -45,3 +48,4 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/desk.jpg"
   recent_posts_number = 6
+

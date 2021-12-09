@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Just an IT professional with a focus on software and projet management."
+description: "Just an IT professional with a focus on software and project management."
 featured_image: '/images/MeInAChair.png'
 menu: main
 ---
