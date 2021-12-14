@@ -23,7 +23,7 @@ Attempting to launch a website built with Hugo 0.79.0 after the installing the c
 
 
 {{< highlight bash "linenos=table,hl_lines=2,linenostart=1" >}}
-bworks@BWorkss-iMac digitalgov.gov % hugo server
+bworks@BWorkss-iMac % hugo server
 WARN 2021/10/19 14:19:31 markup.defaultMarkdownHandler=blackfriday is deprecated and will be removed in a future release. See https://gohugo.io//content-management/formats/#list-of-content-formats
 Start building sites … 
 hugo v0.88.1+extended darwin/amd64 BuildDate=unknown
@@ -40,8 +40,8 @@ hugo v0.88.1+extended darwin/amd64 BuildDate=unknown
   Cleaned          |    0  
 
 Built in 60491 ms
-Watching for changes in /Users/bworks/Documents/Development/digitalgov.gov/{content,data,package.json,static,themes}
-Watching for config changes in /Users/bworks/Documents/Development/digitalgov.gov/config.yml
+Watching for changes in /Users/.../{content,data,package.json,static,themes}
+Watching for config changes in /Users/.../config.yml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
