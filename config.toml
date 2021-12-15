@@ -7,7 +7,7 @@ resourceDir = "../resources"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "G-3VXD2H9YHW"
 enableRobotsTXT = true
 
 
@@ -32,7 +32,7 @@ enableRobotsTXT = true
 [params]
   favicon = "/images/icon_BogdanWorks.ico"
   site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
+  description = "I guess this is a portfolio / Blog site of Matthew Bogdan."
   facebook = ""
   twitter = "https://twitter.com/bogdanworks"
   instagram = "https://instagram.com/bogdanworks"
