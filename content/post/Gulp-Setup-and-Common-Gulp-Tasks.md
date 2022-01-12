@@ -5,16 +5,16 @@ featured_image: "/images/logo_gulp.png"
 description: "Gulp Setup and Common Gulp Tasks"
 categories: [development]
 tags: [gulp]
-draft: true
+draft: false
 ---
-The benefit of using Gulp is to automate the creation and manage redundant tasks and workflows. These tasks and workflows may include running a local server, minifying code, optimizing images, preprocessing CSS and more. I’m going to go through setting up a project with gulp and some common gulp tasks.
+The benefit of using [Gulp](https://gulpjs.com) is to automate the creation and manage redundant tasks and workflows. These tasks and workflows may include running a local server, minifying code, optimizing images, preprocessing CSS and more. I’m going to go through setting up a project with gulp and some common gulp tasks.
 
 
 ## Prerequisites and Assumptions
 * [Node and npm](https://nodejs.org/en/) is already installed in Mac environment 
 * Assuming a project has an *src/* file folder with html, css and js files in it
 
-## Initalizing Gulp in a project Project
+## Initializing Gulp in a project Project
 Moving to my project folder named _gulpjs4_, a package.json can be created. A package.json file allows you to save all of the different modules and other properties about your project. To create a package.json file you can use a couple of commands:
 
 {{< highlight bash "" >}}npm init 	# Asks a number of initialization questions {{< / highlight >}}
@@ -68,6 +68,7 @@ Gulp relies on packages or plug-ins. The first package you'll want to install th
 After running this command you'll notice a _node_modules_ folder has been added to your project. All Plugins and their dependencies are installed to this node_modules folder. 
 
 You can install any gulp or nodejs specific packages as we just did installing the gulp plug-in. All Gulp.js plug-ins can be found at https://gulpjs.com/plugins
+
 ## Gulp Tasks
 As mentioned above gulp is used to automate many development tasks. Gulp tasks are defined in a gulpfile.js file. Or gulp tasks can split up gulp tasks into separate files. You can create gulpjs directory with an index.js file referencing other .js files containing gulp tasks.
 
@@ -80,7 +81,7 @@ Tasks can com in a number of formats:
 * Callback (most popular)
 
 To create a task, create:
-src, and dest (src - where the file is and dest -where it’s going to go)
+src, and dest (src - where the file is, and dest - where it’s going to go)
 Inside that you create a series of pipe statements (so the results of the src will be piped into some sort of module and sent to some destination of where you want the files to go)
 Everyone of the tasks can also be exported (this is optional because you can create internal tasks that don’t get exported)
 Can specify globs which is just a way to refer to files with wildcards, *.
@@ -365,6 +366,8 @@ You can see after Browsersync is running a change happened to an html file so th
 ## Next Steps
 
 Really what I would like to do next is add some image processing and some SCSS processing. Perhaps it would be better to use [Webpack](https://webpack.js.org) and [Rollup](https://rollupjs.org/guide/en/). But in due time I'll be glad to add any of these efforts. But with these simple examples its easy to see why gulp is a great tool to do repetitive tasks.
+
+For more information on Gulp check out https://gulpjs.com 
 
 <!-- ## Adding image processing
 It’s a good idea to standardize file names, create responsive and optimized file sizes. I’m going to creat some tasks to take care of these.
