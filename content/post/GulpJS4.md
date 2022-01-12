@@ -14,8 +14,8 @@ The benefit of using Gulp is to automate the creation and manage redundant tasks
 * [Node and npm](https://nodejs.org/en/) is already installed in Mac environment 
 * Assuming a project has an *src/* file folder with html, css and js files in it
 
-## Creating Project
-Creating a folder for a project named _gulpjs4_, we can then create a package.json file. A package.json file allows you to save all of the different modules and other properties about your project. To create a package.json file you can use a couple of commands:
+## Initalizing Gulp in a project Project
+Moving to my project folder named _gulpjs4_, a package.json can be created. A package.json file allows you to save all of the different modules and other properties about your project. To create a package.json file you can use a couple of commands:
 
 {{< highlight bash "" >}}npm init 	# Asks a number of initialization questions {{< / highlight >}}
 {{< highlight bash "" >}}npm init -y 	# The -y allows a default initialization package file {{< / highlight >}}
@@ -61,30 +61,30 @@ The next step is to install the gulp command line interface so that gulp can be 
 {{< highlight bash "" >}}npm install gulp-cli -g # gulp-cli (command line interface) -g = install globally {{< / highlight >}}
 
 
-Gulp reliese on packages or plug-in. The first package you'll want to install the gulp node module package. The following command will do this:
+Gulp relies on packages or plug-ins. The first package you'll want to install the gulp node module package. The following command will do this:
 
 {{< highlight bash "" >}}npm install gulp -D # Deletes any old versions of gulp and reinstalled the latest version {{< / highlight >}}
 
-After running this command you'll notice a _node_modules_ folder has been added to your project. All Plugins and their dependencies are installed to this node_modules folder.  
+After running this command you'll notice a _node_modules_ folder has been added to your project. All Plugins and their dependencies are installed to this node_modules folder. 
 
-You can install any gulp or nodejs specific packages as we just did installing the gulp plug-in. All Gulp.js plug-ins can be found at https://gulpjs.com/plugins 
-
+You can install any gulp or nodejs specific packages as we just did installing the gulp plug-in. All Gulp.js plug-ins can be found at https://gulpjs.com/plugins
 ## Gulp Tasks
 As mentioned above gulp is used to automate many development tasks. Gulp tasks are defined in a gulpfile.js file. Or gulp tasks can split up gulp tasks into separate files. You can create gulpjs directory with an index.js file referencing other .js files containing gulp tasks.
 
-Tasks can com in a number of formats
-Stream,
-Promise,
-Event emitter,
-Shield process,
-Observable,
-Callback (most popular)
+Tasks can com in a number of formats:
+* Stream,
+* Promise,
+* Event emitter,
+* Shield process,
+* Observable,
+* Callback (most popular)
 
 To create a task, create:
 src, and dest (src - where the file is and dest -where it’s going to go)
 Inside that you create a series of pipe statements (so the results of the src will be piped into some sort of module and sent to some destination of where you want the files to go)
 Everyone of the tasks can also be exported (this is optional because you can create internal tasks that don’t get exported)
-Can specify globs which is just a way to refer to files with wildcards
+Can specify globs which is just a way to refer to files with wildcards, *.
+
 
 ## Simple Src Dest Pipe Gulp Task
 
@@ -200,7 +200,7 @@ bworks@BWorkss-iMac gulpjs4 % npm install --save-dev del
 Adding to the gulpfile.js a reference to del, 
 
 {{< highlight js "" >}}
-const {src, dest, series, del} = require('gulp');
+const {src, dest, series} = require('gulp');
 const del = require('del');
 {{< / highlight >}}
 
@@ -223,10 +223,10 @@ will clean out the folder before piping the files to the build folder
 
 ## Parallel task execution
 
-It doesn’t really matter which one of the tasks get completed after the clean task. The html, css, and js tasks can all be done at the same time. And there’s a way to do that with gulp. Adding the parallel keyword to our list of constants which “Takes a variable amount of strings (taskName) and/or functions (fn) and returns a function of the composed tasks or functions. When the returned function is executed, the tasks or functions will be executed in parallel, all being executed at the same time.”
+It doesn’t really matter which one of the tasks get completed after the clean task. The html, css, and js tasks can all be done at the same time. And there’s a way to do that with gulp. Adding the [gulp *parallel* keyword](https://gulpjs.com/docs/en/api/parallel/) to our list of constants which “Combines task functions and/or composed operations into larger operations that will be executed simultaneously.”
 
 {{< highlight js "" >}}
-const {src, dest, series, del, parallel} = require('gulp');
+const {src, dest, series, parallel} = require('gulp');
 .
 .
 .
@@ -315,7 +315,7 @@ Adding a reference to the watch method of the gulp library, a gulpWatch task and
 
 
 {{<highlight js "" >}}
-const {src, dest, series, del, parallel, watch} = require('gulp');
+const {src, dest, series, parallel, watch} = require('gulp');
 .
 .
 .
