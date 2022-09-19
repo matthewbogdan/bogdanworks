@@ -1,7 +1,7 @@
 title = "Bogdanworks"
 baseURL = "https://www.bogdanworks.com"
 languageCode = "en-us"
-theme = "gohugo-theme-ananke"
+theme = "ananke"
 # themesDir = "../.."
 resourceDir = "../resources"
 DefaultContentLanguage = "en"
