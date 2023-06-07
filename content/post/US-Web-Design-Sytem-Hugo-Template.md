@@ -94,8 +94,8 @@ tree
 You can delete the css and js folders in the static folder as we will be moving these to an assets folder.
 
 {{<highlight bash "">}}
-rm -r themes/testTheme/static/css
-rm -r themes/testTheme/static/js
+rm -r themes/uswdsTheme/static/css
+rm -r themes/uswdsTheme/static/js
 {{</highlight>}}
 
 ## Installing USWDS
