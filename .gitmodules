@@ -4,3 +4,7 @@
 [submodule "themes/gohugo-theme-ananke"]
 	path = themes/gohugo-theme-ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/uswdsHugoTheme"]
+	path = themes/uswdsHugoTheme
+	url = https://github.com/bogdanworks/uswdsHugoTheme.git
+
