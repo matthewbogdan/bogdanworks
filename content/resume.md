@@ -23,17 +23,19 @@ A multifaceted role of development, project management, and managing a team of s
 * Developed tiger team devoted to developing division digital transformation concentrating on DevOps, CI/CD, application testing, and containerization using Docker images
 * Developed / updated application development standards for division developing applications related to development and unit testing
 
-## General Services Administration
-### 01/2022 - 05/2022
-#### ACCOMPLISHMENTS
+## Technology Transformation Services
+### General Services Administration
+#### 01/2022 - 05/2022
+##### ACCOMPLISHMENTS
 * Reduced open source software dependencies security vulnerabilities web applications
 * Developed security policy on AWS S3 bucket to mitigate security vulnerabilities
 * Updated Digital.gov to use the US Web Design System (USWDS) version 3.0 resulting in faster loading speeds for clients
 #### EXAMPLES
 [Hosted USWDS Monthly Call - April 2022](https://digital.gov/event/2022/04/21/uswds-monthly-call-april-2022/) talking about the benefits and process of upgrading [Digital.gov](Digital.gov) to USWDS 3.0.
 
-## Defense Media Activity
-### 07/2017 - 06/2022
+## Defense Media Activity 
+### U.S. Department of Defense
+#### 07/2017 - 06/2022
 Starting as a developer maintaining a legacy content management system, turning to a project manager migrating legacy website / applications to modern solutions to encouraging other Navy commands to adopt our modern agency solution to websites geared toward public affairs.
 #### ACCOMPLISHMENTS
 * Led cross functional teams of designers, developers, QA specialists to modernize Navy websites and mobile apps to allow the members of the Navy public affairs community to easily create and distribute content across the Navy and to it's public community
@@ -54,9 +56,10 @@ Starting as a developer maintaining a legacy content management system, turning 
 
 
 
-## Internal Revenue Service
-### 01/2011 - 12/2015
-#### ACCOMPLISHMENTS
+## Statistics of Income
+### Internal Revenue Service
+#### 01/2011 - 12/2015
+##### ACCOMPLISHMENTS
 * Led development team building desktop applications to collect and compute statistical data that informs other government agencies and the public how the tax system works
 * Produced electronic correspondence tracking system to take place of time consuming paper signing process resulting in Special Act Award
 * Led team of programmers to convert program from Oracle Forms to Visual Studio NET in a Project Manager role increasing security measures and coding efficiencies
