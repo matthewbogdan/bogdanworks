@@ -14,8 +14,27 @@ In my 10+ years in public service I have focused on software and application dev
 
 # Work Experience
 ---
+## Bureau of Labor Statistics 
+### 06/2022 - Present
+A multifaceted role of development, project management, and managing a team of software developers -- leading the division, responsible for a portfolio of over 90 software applications, and their digital transformation efforts to deliver software more efficiently to provide client value faster.
+#### ACCOMPLISHMENTS
+* Led-cross functional team developing asset management application focusing on administrative functions related to mobile devices for the entire organization bureau
+* Led cross-functional team developing application to track and report HR functions to senior management related to hiring, promotions, separations and transfers
+* Developed tiger team devoted to developing division digital transformation concentrating on DevOps, CI/CD, application testing, and containerization using Docker images
+* Developed / updated application development standards for division developing applications related to development and unit testing
+
+## General Services Administration
+### 01/2022 - 05/2022
+#### ACCOMPLISHMENTS
+* Reduced open source software dependencies security vulnerabilities web applications
+* Developed security policy on AWS S3 bucket to mitigate security vulnerabilities
+* Updated Digital.gov to use the US Web Design System (USWDS) version 3.0 resulting in faster loading speeds for clients
+#### EXAMPLES
+[Hosted USWDS Monthly Call - April 2022](https://digital.gov/event/2022/04/21/uswds-monthly-call-april-2022/) talking about the benefits and process of upgrading [Digital.gov](Digital.gov) to USWDS 3.0.
+
 ## Defense Media Activity
-### 07/2017 - Present
+### 07/2017 - 06/2022
+Starting as a developer maintaining a legacy content management system, turning to a project manager migrating legacy website / applications to modern solutions to encouraging other Navy commands to adopt our modern agency solution to websites geared toward public affairs.
 #### ACCOMPLISHMENTS
 * Led cross functional teams of designers, developers, QA specialists to modernize Navy websites and mobile apps to allow the members of the Navy public affairs community to easily create and distribute content across the Navy and to it's public community
 * Received Navy Superior Civilian Service award for a "historic transformation of the Navy's flagship digital presence marking it's first significant modernization in 20 years"
@@ -23,10 +42,8 @@ In my 10+ years in public service I have focused on software and application dev
 |Website|App|
 |---|---|
 |[Navy Flagship website](https://www.navy.mil) | [The Official US Navy App: IOS](https://apps.apple.com/us/app/the-official-us-navy-app/id1575606823)|
-|[Navy All Hands website](https://www.ah.mil) | The Official US Navy App: Android (to be release January 2022) |
+|[Navy All Hands website](https://www.ah.mil) | &nbsp |
 
-
-<!-- []](https://play.google.com/store/apps/details?id=mil.navy.navyapplocker) -->
 ## Selective Service System
 ### 12/2015 - 07/2017
 #### ACCOMPLISHMENTS
