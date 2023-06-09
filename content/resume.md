@@ -7,7 +7,7 @@ categories: []
 tags: []
 draft: false
 ---
-[Printable copy](/docs/​​20230608_Matthew_Bogdan_Resume.pdf)
+[Printable copy](/docs/Matthew_Bogdan_Resume.pdf)
 # Summary
 ---
 In my 12+ years in public service I have focused on software and application development. More recently, I’ve played major roles in project management attaining my Project Management Professional® and Certified ScrumMaster® certification and a Navy Superior Civilian Service award. In June of 2022, I completed an Executive Potential Program, a competency-based leadership development program for future Senior Executives focused on leading change. Currently, I am a Branch Chief of Systems Development leading a team of federal and contract application developers building internal applications which supports administrative, financial, operational, management and HR functions within the Bureau of Statistics.
