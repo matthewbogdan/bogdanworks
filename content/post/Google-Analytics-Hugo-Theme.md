@@ -5,7 +5,7 @@ featured_image: "/images/logo_Hugo_GAnalytics.png"
 description: "Updating Google Analytics code in Hugo site"
 categories: ["SSG"]
 tags: ["google analytics", "analytics", "hugo"]
-draft: true
+draft: false
 ---
 
 Google Analytics in my Hugo website
